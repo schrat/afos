@@ -84,7 +84,8 @@ int main (void)			/*  satiric alien invasion game */
 		printf("Sorry, the instructions aren't ready yet.\n");
 
 /*	MAIN LOOP	*/
-	while(aliens > 0 && humans > 0)	{
+
+   while(aliens > 0 && humans > 0) {
 		printf("Aliens left: %ld \tHumans left: %ld ", aliens, humans);
 		printf("\t Wounded Humans: %ld\n", humwnd);
 		prompt();
